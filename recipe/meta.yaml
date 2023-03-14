@@ -1,4 +1,4 @@
-{% set version = "0.3-42" %}
+{% set version = "0.3-43" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,12 +11,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/scatterplot3d_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/scatterplot3d/scatterplot3d_{{ version }}.tar.gz
-  sha256: a9fedde70e1a846c4dcafbff20f115425206d507896d12c2b21ff052556c5216
+  sha256: 90d7bfb535b76008768306ea9209adfb48e0e07f36eabbb59ab6ddb6522f16a5
 
 build:
   noarch: generic
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/

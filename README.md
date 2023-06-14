@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-scatterplot3d
 
 Home: https://CRAN.R-project.org/package=scatterplot3d
 
-Package license: GPL-2
+Package license: GPL-2.0-only
 
 Summary: Plots a three dimensional (3D) point cloud.
 

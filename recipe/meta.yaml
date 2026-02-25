@@ -1,4 +1,4 @@
-{% set version = "0.3-44" %}
+{% set version = "0.3-45" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/scatterplot3d_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/scatterplot3d/scatterplot3d_{{ version }}.tar.gz
-  sha256: 1c9c08348c3ed925f59df40cb73accc9e1a169ccfb1e8571f105f40fa98e6ec2
+  sha256: 2ad524da39f0cb33547693bed52e3d8e917c28580671568036dc3c7a9ca48340
 
 build:
   noarch: generic
-  number: 3
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
